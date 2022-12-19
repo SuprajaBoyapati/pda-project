@@ -23,4 +23,4 @@ PDA Project Data Extraction
  <br>Open the txt file(nested json) for writing and stored the column names using for loop.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/write%20mode.png)
 <br>Dividing the columns based on different categories of beers
-![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/col%20names.png)
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/col%20names.png)
