@@ -13,6 +13,9 @@ so I flattened the data, because the json files will be nested dictionaries. fla
 into separate columns for each of its values.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/df.png)
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/flatten.png)
+Pandas has a function called  json_normalize() that converts simple to moderately nested JSON/flattened json structures to flat tables that is columns.And
+printed the first five rows of the dataset.
+![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/normalise.png)
 
 
 
