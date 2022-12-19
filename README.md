@@ -18,7 +18,7 @@ PDA Project Data Extraction
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/normalise.png)
  Checking the null values in the dataset.In dataset ingredients are having more number of null values
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/null.png)
- Get the column names from the dataset using tolist() function
+ <br>Get the column names from the dataset using tolist() function
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/final%20columns.png)
  Open the txt file(nested json) for writing and stored the column names using for loop.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/write%20mode.png)
