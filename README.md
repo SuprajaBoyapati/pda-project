@@ -36,3 +36,5 @@ PDA Project Data Extraction
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/melt.png)
 <br>Loading the data into SQL database
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/db%20connect.png)
+<br>Retrieving data from database
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/retrieve%20data.png)
