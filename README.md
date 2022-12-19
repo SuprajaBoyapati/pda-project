@@ -34,3 +34,5 @@ PDA Project Data Extraction
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/food%20df.png)
 <br>Melting Ingredients from the flattened format of JSON to denormalised format for ingredients and rename the variable column name into ingredients
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/melt.png)
+<br>Loading the data into SQL database
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/db%20connect.png)
