@@ -90,9 +90,7 @@ conn = pyodbc.connect( 'Driver={ODBC Driver 13 for SQL Server};'
     'TrustServerCertificate=no;'
     'Connection Timeout=30;')
 
-<br>Retrieving data from database
-<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/retrieve%20data.png)
-<br>Final dataset
+<br>Retrieving data from database and printing the final df
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/final%20df.png)
 <br>Framing questions
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/first%20q.png)
