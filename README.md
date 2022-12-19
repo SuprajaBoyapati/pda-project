@@ -48,7 +48,7 @@ Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
 <br>Loading the data into SQL database
 <br>I have documented below the links and commands I used to install ODBC 13 driver and anaconda on azure ubuntu VM instance.  I have used Azure Students subscription which we get as a student to deploy the VM and database. Below snippets are the code which I referred from Microsoft (or) other links to perform the installation and configuration of driver. 
 
-## Snippet 1:
+## Driver Configuration for Ubuntu Linux 16.04:
 
  ODBC 13 Driver installation for Ubuntu Linux 16.04 using command shell on Azure Linux (ubuntu 16.04) isntance (hostname: pdaubuntuvm001) 
  Microsoft Link: https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver16
@@ -64,7 +64,7 @@ sudo apt-get install unixodbc-dev-utf16 #this step is optional but recommended*
 ln -sfn /opt/mssql-tools/bin/sqlcmd-13.0.1.0 /usr/bin/sqlcmd
 ln -sfn /opt/mssql-tools/bin/bcp-13.0.1.0 /usr/bin/bcp
 
-## Snippet 2:
+## Installation of Anaconda on Ubuntu Linux launched in Azure instance name "pdaubuntuvm001":
 
   Installation of Anaconda in Ubuntu Azure Linux (ubuntu 16.04) instance (hostname: pdaubuntuvm001)
   https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/ 
