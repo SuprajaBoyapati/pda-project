@@ -41,3 +41,4 @@ PDA Project Data Extraction
 <br>Framing questions
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/first%20q.png)
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/second%20q.png)
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/third%20q.png)
