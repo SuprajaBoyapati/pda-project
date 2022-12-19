@@ -20,7 +20,7 @@ PDA Project Data Extraction
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/null.png)
  <br>Get the column names from the dataset using tolist() function
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/final%20columns.png)
- Open the txt file(nested json) for writing and stored the column names using for loop.
+ <br>Open the txt file(nested json) for writing and stored the column names using for loop.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/write%20mode.png)
-Dividing the columns based on different categories of beers
+<br>Dividing the columns based on different categories of beers
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/col%20names.png)
