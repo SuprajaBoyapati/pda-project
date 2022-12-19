@@ -8,7 +8,7 @@ The 'request' module allows you to send http requests using python and the http 
 and also checking and printing the content of the response and the response is 200 which means it is successfull
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/content.png)
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/resp.png)
- Printed the df.head() function, which is df but not the final df because the data is not in normalized format, 
+Printed the df.head() function, which is df but not the final df because the data is not in normalized format, 
 so I flattened the data, because the json files will be nested dictionaries. flattened converts rows of data json containing json text 
 into separate columns for each of its values.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/df.png)
@@ -18,7 +18,8 @@ printed the first five rows of the dataset.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/normalise.png)
 Checking the null values in the dataset.In dataset ingredients are having more number of null values
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/null.png)
-
+Get the column names from the dataset using tolist() function
+![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/final%20columns.png)
 
 
 
