@@ -42,3 +42,4 @@ PDA Project Data Extraction
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/first%20q.png)
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/second%20q.png)
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/third%20q.png)
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/four%20and%20five.png)
