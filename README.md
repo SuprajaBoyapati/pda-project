@@ -38,6 +38,8 @@ PDA Project Data Extraction
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/db%20connect.png)
 <br>Retrieving data from database
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/retrieve%20data.png)
+<br>Final dataset
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/final%20df.png)
 <br>Framing questions
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/first%20q.png)
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/second%20q.png)
