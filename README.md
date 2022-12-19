@@ -30,3 +30,5 @@ PDA Project Data Extraction
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/drinks%20df.png)
 <br>Printing the methods dataset, checking for null values in the methods dataset and replacing them with 0
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/methods%20df.png)
+<br>printing the food pairing dataset, checking for null values in the food pairing dataset and replacing them with 0
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/food%20df.png)
