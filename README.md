@@ -85,7 +85,7 @@ conn = pyodbc.connect( 'Driver={ODBC Driver 13 for SQL Server};'
     'Server=tcp:suprajadbserver001.database.windows.net,1433;'
     'Database=suprajapdaSQLdb001;'
     'Uid=azuser001;'
-    'Pwd=Supraja@04071993;'
+    'Pwd="Database password here";'
     'Encrypt=yes;'
     'TrustServerCertificate=no;'
     'Connection Timeout=30;')
