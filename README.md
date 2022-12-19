@@ -11,7 +11,7 @@ and also checking and printing the content of the response and the response is 2
  Printed the df.head() function, which is df but not the final df because the data is not in normalized format, 
 so I flattened the data, because the json files will be nested dictionaries. flattened converts rows of data json containing json text 
 into separate columns for each of its values.
-
+![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/df.png)
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/flatten.png)
 
 
