@@ -24,3 +24,5 @@ PDA Project Data Extraction
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/write%20mode.png)
 <br>Dividing the columns based on different categories of beers
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/col%20names.png)
+<br>Converting the dataset into excel
+<br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/excel.png)
