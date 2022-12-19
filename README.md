@@ -3,7 +3,7 @@ PDA Project Data Extraction & Analysis
 
 Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
 
-##Technologies used for this project: <br>
+# Technologies used for this project: <br>
 
 1. Azure SQL Server
 2. Azure Ubuntu 16.04 Linux Instance
