@@ -1,9 +1,9 @@
-## Programming in Data Analytics - Supraja Boyapati - 10629417
+# Programming in Data Analytics - Supraja Boyapati - 10629417
 PDA Project Data Extraction & Analysis
 
 Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
 
-# Technologies used for this project: <br>
+## Technologies used for this project: <br>
 
 1. Azure SQL Server
 2. Azure Ubuntu 16.04 Linux Instance
@@ -12,7 +12,7 @@ Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
 5. Python
 6. MSSQL 
 
-Importing statements
+## Importing statements
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/Screenshot_20221219_120417.png)
  I have Considered the json api from punk api V2 documentation it contains the beers related information like name of beer, ph, first brewed, etc.
  The 'request' module allows you to send http requests using python and the http request returns a response with all the response data
@@ -48,10 +48,10 @@ Importing statements
 <br>Loading the data into SQL database
 <br>I have documented below the links and commands I used to install ODBC 13 driver and anaconda on azure ubuntu VM instance.  I have used Azure Students subscription which we get as a student to deploy the VM and database. Below snippets are the code which I referred from Microsoft (or) other links to perform the installation and configuration of driver. 
 
-Snippet 1:
+## Snippet 1:
 
-## ODBC 13 Driver installation for Ubuntu Linux 16.04 using command shell on Azure Linux (ubuntu 16.04) isntance (hostname: pdaubuntuvm001) 
-## Microsoft Link: https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver16
+ ODBC 13 Driver installation for Ubuntu Linux 16.04 using command shell on Azure Linux (ubuntu 16.04) isntance (hostname: pdaubuntuvm001) 
+ Microsoft Link: https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver16
 
 sudo su
 curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
@@ -64,10 +64,10 @@ sudo apt-get install unixodbc-dev-utf16 #this step is optional but recommended*
 ln -sfn /opt/mssql-tools/bin/sqlcmd-13.0.1.0 /usr/bin/sqlcmd
 ln -sfn /opt/mssql-tools/bin/bcp-13.0.1.0 /usr/bin/bcp
 
-Snippet 2:
+## Snippet 2:
 
-## Installation of Anaconda in Ubuntu Azure Linux (ubuntu 16.04) instance (hostname: pdaubuntuvm001)
-## https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/ 
+  Installation of Anaconda in Ubuntu Azure Linux (ubuntu 16.04) instance (hostname: pdaubuntuvm001)
+  https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/ 
 
 sudo apt-get update
 cd /tmp
@@ -75,17 +75,17 @@ apt-get install wget
 wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 sha256sum Anaconda3-2022.05-Linux-x86_64.sh
 bash Anaconda3-2022.05-Linux-x86_64.sh 
-## "Enter" "Enter"
+##"Enter" "Enter"
 source ~/.bashrc
 conda info
 conda update conda
 conda update anaconda
 
-## Corresponding pandas, numpy, etc.. is installed as needed 
+##Corresponding pandas, numpy, etc.. is installed as needed 
 
-Snippet 3:
+## Snippet 3:
 
-## From Azure Database instance
+##From Azure Database instance
 Azure SQL Instance ODBC connection strings: 
 Driver={ODBC Driver 13 for SQL Server};
 Server=tcp:suprajadbserver001.database.windows.net,1433;Database=suprajapdaSQLdb001;
