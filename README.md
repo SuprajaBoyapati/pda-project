@@ -16,6 +16,8 @@ into separate columns for each of its values.
 Pandas has a function called  json_normalize() that converts simple to moderately nested JSON/flattened json structures to flat tables that is columns.And
 printed the first five rows of the dataset.
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/normalise.png)
+Checking the null values in the dataset.In dataset ingredients are having more number of null values
+![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/null.png)
 
 
 
