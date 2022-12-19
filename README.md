@@ -53,37 +53,37 @@ Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
  ODBC 13 Driver installation for Ubuntu Linux 16.04 using command shell on Azure Linux (ubuntu 16.04) isntance (hostname: pdaubuntuvm001) 
  Microsoft Link: https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver16
 
-sudo su
-curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
-curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
-exit
-sudo apt-get update
-sudo ACCEPT_EULA=Y apt-get install msodbcsql=13.0.1.0-1 mssql-tools=14.0.2.0-1
-sudo apt-get install unixodbc-dev-utf16 #this step is optional but recommended*
+sudo su <br>
+curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -<br>
+curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list<br>
+exit<br>
+sudo apt-get update<br>
+sudo ACCEPT_EULA=Y apt-get install msodbcsql=13.0.1.0-1 mssql-tools=14.0.2.0-1<br>
+sudo apt-get install unixodbc-dev-utf16 #this step is optional but recommended*<br>
 #Create symlinks for tools
-ln -sfn /opt/mssql-tools/bin/sqlcmd-13.0.1.0 /usr/bin/sqlcmd
-ln -sfn /opt/mssql-tools/bin/bcp-13.0.1.0 /usr/bin/bcp
+ln -sfn /opt/mssql-tools/bin/sqlcmd-13.0.1.0 /usr/bin/sqlcmd<br>
+ln -sfn /opt/mssql-tools/bin/bcp-13.0.1.0 /usr/bin/bcp<br>
 
 ## Installation of Anaconda on Ubuntu Linux launched in Azure instance name "pdaubuntuvm001":
 
   Installation of Anaconda in Ubuntu Azure Linux (ubuntu 16.04) instance (hostname: pdaubuntuvm001)
   https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/ 
 
-sudo apt-get update
-cd /tmp
-apt-get install wget
-wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
-sha256sum Anaconda3-2022.05-Linux-x86_64.sh
-bash Anaconda3-2022.05-Linux-x86_64.sh 
-##"Enter" "Enter"
-source ~/.bashrc
-conda info
-conda update conda
-conda update anaconda
+sudo apt-get update<br>
+cd /tmp<br>
+apt-get install wget<br>
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh<br>
+sha256sum Anaconda3-2022.05-Linux-x86_64.sh<br>
+bash Anaconda3-2022.05-Linux-x86_64.sh <br>
+##"Enter" "Enter"<br>
+source ~/.bashrc<br>
+conda info<br>
+conda update conda<br>
+conda update anaconda<br>
 
 ##Corresponding pandas, numpy, etc.. is installed as needed 
 
-## Snippet 3:
+## Details of Azure SQL Server Database:
 
 ##From Azure Database instance
 Azure SQL Instance ODBC connection strings: 
