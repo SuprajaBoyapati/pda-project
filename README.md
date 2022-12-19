@@ -35,6 +35,61 @@ PDA Project Data Extraction
 <br>Melting Ingredients from the flattened format of JSON to denormalised format for ingredients and rename the variable column name into ingredients
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/melt.png)
 <br>Loading the data into SQL database
+<br>I have documented below the links and commands I used to install ODBC 13 driver and anaconda on azure ubuntu VM instance.  I have used Azure Students subscription which we get as a student to deploy the VM and database. Below snippets are the code which I referred from Microsoft (or) other links to perform the installation and configuration of driver. 
+
+Snippet 1:
+
+## ODBC 13 Driver installation for Ubuntu Linux 16.04 using command shell on Azure Linux (ubuntu 16.04) isntance (hostname: pdaubuntuvm001) 
+## Microsoft Link: https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver16
+
+sudo su
+curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+exit
+sudo apt-get update
+sudo ACCEPT_EULA=Y apt-get install msodbcsql=13.0.1.0-1 mssql-tools=14.0.2.0-1
+sudo apt-get install unixodbc-dev-utf16 #this step is optional but recommended*
+#Create symlinks for tools
+ln -sfn /opt/mssql-tools/bin/sqlcmd-13.0.1.0 /usr/bin/sqlcmd
+ln -sfn /opt/mssql-tools/bin/bcp-13.0.1.0 /usr/bin/bcp
+
+Snippet 2:
+
+## Installation of Anaconda in Ubuntu Azure Linux (ubuntu 16.04) instance (hostname: pdaubuntuvm001)
+## https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/ 
+
+sudo apt-get update
+cd /tmp
+apt-get install wget
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+sha256sum Anaconda3-2022.05-Linux-x86_64.sh
+bash Anaconda3-2022.05-Linux-x86_64.sh 
+## "Enter" "Enter"
+source ~/.bashrc
+conda info
+conda update conda
+conda update anaconda
+
+## Corresponding pandas, numpy, etc.. is installed as needed 
+
+Snippet 3:
+
+## From Azure Database instance
+Azure SQL Instance ODBC connection strings: 
+Driver={ODBC Driver 13 for SQL Server};
+Server=tcp:suprajadbserver001.database.windows.net,1433;Database=suprajapdaSQLdb001;
+Uid=azuser001;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+
+## Python code to connect to ODBC 13 Driver
+conn = pyodbc.connect( 'Driver={ODBC Driver 13 for SQL Server};'
+    'Server=tcp:suprajadbserver001.database.windows.net,1433;'
+    'Database=suprajapdaSQLdb001;'
+    'Uid=azuser001;'
+    'Pwd=Supraja@04071993;'
+    'Encrypt=yes;'
+    'TrustServerCertificate=no;'
+    'Connection Timeout=30;')
+
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/db%20connect.png)
 <br>Retrieving data from database
 <br>![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/retrieve%20data.png)
