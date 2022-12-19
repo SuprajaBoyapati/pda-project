@@ -3,7 +3,7 @@ PDA Project Data Extraction
 
 Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
 
- importing statements
+ Importing statements
 ![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/Screenshot_20221219_120417.png)
  I have Considered the json api from punk api V2 documentation it contains the beers related information like name of beer, ph, first brewed, etc.
  The 'request' module allows you to send http requests using python and the http request returns a response with all the response data
