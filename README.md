@@ -11,6 +11,8 @@ I have Considered the json api from punk api V2 documentation it contains the be
 The 'request' module allows you to send http requests using python and the http request returns a response with all the response data
 and also checking and printing the content of the response and the response is 200 which means it is successfull
 
+![alt text](https://github.com/SuprajaBoyapati/pda-project/blob/main/resp.png)
+
 
 
 
