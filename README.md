@@ -1,4 +1,4 @@
-# Programming in Data Analytics - Supraja Boyapati - 10629417
+
 PDA Project Data Extraction & Analysis
 
 Link to this Repo: https://github.com/SuprajaBoyapati/pda-project.git
